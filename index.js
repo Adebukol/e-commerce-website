@@ -274,7 +274,7 @@ let productContainer = document.getElementById("product-list")
 // <div class="img-container bag">
 // <img class ="product-image" src=${image} alt="bag-image">
 // <button class="product-btn" onclick="increment()" data-id="1">
-// <img src="cart-new.svg" alt="cart-img"/>Add to Cart</button>
+// <img src="images/cart-new.svg" alt="cart-img"/>Add to Cart</button>
 // </div>
 // <h3>Pink Bag </h3><span><img class="wish-image" onclick="increment()" src="icon-heart.svg" alt="heart-image"/>Add To wishlist</span>
 // <h4>$16.00</h4>
@@ -286,7 +286,7 @@ function updateDom (products){
     <div class="img-container bag">
     <img class ="product-image" src="${product.image}" alt="bag-image">
     <button class="product-btn" data-id="1">
-    <img src="cart-new.svg" alt="cart-img"/>Add to Cart</button>
+    <img src="images/cart-new.svg" alt="cart-img"/>Add to Cart</button>
     </div>
     <h3>${product.product_name} </h3><span><img class="wish-image" onclick="increment()" src="icon-heart.svg" alt="heart-image"/>Add To wishlist</span>
     <h4> $ ${product.price}</h4>
