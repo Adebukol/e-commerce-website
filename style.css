@@ -291,7 +291,7 @@ pointer-events: auto;
 }
 /*Header*/
 #showcase{
-    background-image: linear-gradient(to right bottom,rgba(231, 247, 12, 0.5), rgba(255, 255, 255, 0.39), rgba(255, 166, 0, 0.5) ), url('./background-home.png');
+    background-image: linear-gradient(to right bottom,rgba(231, 247, 12, 0.5), rgba(255, 255, 255, 0.39), rgba(255, 166, 0, 0.5) ), url('images/background-home.png');
     background-position: center; 
     background-repeat: no-repeat;
     position: relative;
